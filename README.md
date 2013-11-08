@@ -35,3 +35,10 @@ The ability to have multiple slave ids for a single connection. For example a 48
        
        To use do the following:
        master = ModbusIpMaster.CreateIp(socket, modbusId);
+
+Installation
+============
+Copy the lib and tools folders from the original NModbus project to sibling
+folders of the Nmodbus (git) folder.
+The original NModbus project source is located here:
+http://nmodbus.googlecode.com/files/NModbus_net-3.5_1.11.0.0-source.zip
